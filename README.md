@@ -8,7 +8,7 @@ This respository contains data files for the CUA study on academic detailing's i
 We estimated the survival curve parameters by digitizing the Kaplan-Meier curves from a previous publication.
 
 ### Step 2: Saved data as CSV file
-We then exported the data into a CSV file (KM_tierney3.csv). 
+We then exported the data into a CSV file ([KM_tierney3.csv](https://raw.githubusercontent.com/mbounthavong/CUA_Academic_detailing_and_naloxone/main/KM_tierney3.csv)). 
 
 ### Step 3: Estimate the number at risk for the Kaplan-Meier table
 We used the Excel file from Tierney and colleagues to esitmate the number at risk. I used the paper by Walley and colleagues to input into Tierney and colleagues Excel sheet to properly estimate the number at risk in the Kaplan-Meier table. 
