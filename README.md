@@ -1,4 +1,4 @@
-# Cost-utility analysis of Academic detailing on naloxone distribution among opioid users in the United States
+# Cost-utility analysis of academic detailing on naloxone distribution among opioid users in the United States
 Cost-effectiveness of academic detailing on naloxone distribution
 
 This respository contains data files for the CUA study on academic detailing's impact on naloxone distribution.
