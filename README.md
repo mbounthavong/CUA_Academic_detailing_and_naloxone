@@ -18,6 +18,8 @@ Then, we used the R code by Guyot and collagues to fit into the `flexsurvreg` co
 
 
 # References and Sources
+Data for the Kaplan-Meier curve was based on a paper by Walley and colleagues.
+(citation: [Walley AY, Lodi S, Li Y, Bernson D, Babakhanlou-Chase H, Land T, Larochelle MR. Association between mortality rates and medication and residential treatment after in-patient medically managed opioid withdrawal: a cohort analysis. Addiction. 2020 Aug;115(8):1496-1508. doi: 10.1111/add.14964. Epub 2020 Feb 25. PMID: 32096908; PMCID: PMC7854020.](https://pubmed.ncbi.nlm.nih.gov/32096908/))
 We used the methods by Hoyle and Henley, which was provided as a publication
 (citation: [Hoyle MW, Henley W. Improved curve fits to summary survival data: application to economic evaluation of health technologies. BMC Med Res Methodol. 2011 Oct 10;11:139. doi: 10.1186/1471-2288-11-139. PMID: 21985358; PMCID: PMC3198983.](https://pubmed.ncbi.nlm.nih.gov/21985358/))
 
