@@ -13,7 +13,7 @@ We then exported the data into a CSV file (KM_tierney3.csv).
 ### Step 3: Estimate the number at risk for the Kaplan-Meier table
 We used the Excel file from Tierney and colleagues to esitmate the number at risk. I used the paper by Walley and colleagues to input into Tierney and colleagues Excel sheet to properly estimate the number at risk in the Kaplan-Meier table. 
 
-### Step 4: Extrapolate surivval to estimate the parameters for the survival functions
+### Step 4: Extrapolate survival to estimate the parameters for the survival functions
 Then, we used the R code by Guyot and collagues to fit into the `flexsurvreg` command to estimate the parameters for the survival function. 
 
 
