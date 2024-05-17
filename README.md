@@ -16,6 +16,7 @@ We used the Excel file from Tierney and colleagues to esitmate the number at ris
 ### Step 4: Extrapolate survival to estimate the parameters for the survival functions
 Then, we used the R code by Guyot and collagues to fit into the `flexsurvreg` command to estimate the parameters for the survival function. 
 
+<img src = 'https://github.com/mbounthavong/CUA_Academic_detailing_and_naloxone/blob/main/Figures/Figure_survival.png' width = 60%>
 
 # References and Sources
 Data for the Kaplan-Meier curve was based on a paper by Walley and colleagues.
