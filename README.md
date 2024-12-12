@@ -13,7 +13,7 @@ We then exported the data into a CSV file ([KM_tierney3.csv](https://raw.githubu
 ### Step 3: Estimate the number at risk for the Kaplan-Meier table
 The digitized KM curve provided survival estimates at months 1 to 12. 
 
-```{r}
+```{r, echo = TRUE, warning = FALSE, message = FALSE}
 ### Load Data
 data1 <- "https://raw.githubusercontent.com/mbounthavong/CUA_Academic_detailing_and_naloxone/main/KM_tierney3.csv"
 
