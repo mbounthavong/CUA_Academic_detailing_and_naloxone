@@ -15,6 +15,7 @@ The digitized KM curve provided survival estimates at months 1 to 12.
 
 ```{r}
 data1 <- "https://raw.githubusercontent.com/mbounthavong/CUA_Academic_detailing_and_naloxone/main/KM_tierney3.csv"
+head(data1)
 ````
 
 We inputted these into an Excel file from Tierney and colleagues to esitmate the number at risk. I used the paper by Walley and colleagues to input into Tierney and colleagues Excel sheet to properly estimate the number at risk in the Kaplan-Meier table. 
