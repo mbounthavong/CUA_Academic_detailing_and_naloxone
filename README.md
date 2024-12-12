@@ -25,7 +25,7 @@ We inputted these into an Excel file from Tierney and colleagues to esitmate the
 <img src = 'https://github.com/mbounthavong/CUA_Academic_detailing_and_naloxone/blob/main/Figures/tierney excel.png' width = 40%>
 
 ### Step 4: Extrapolate survival to estimate the parameters for the survival functions
-Then, we used the R code by Guyot and collagues to fit into the `flexsurvreg` command to estimate the parameters for the survival function. The R code that we used is located [here](https://raw.githubusercontent.com/mbounthavong/CUA_Academic_detailing_and_naloxone/refs/heads/main/R%20codes/survival_fit_tierney.R).
+Then, we used the R code by Guyot and colleagues to fit into the `flexsurvreg` command to estimate the parameters for the survival function. The R code that we used is located [here](https://raw.githubusercontent.com/mbounthavong/CUA_Academic_detailing_and_naloxone/refs/heads/main/R%20codes/survival_fit_tierney.R).
 
 We fitted the Weibull, which had the best fit compared to the other survival functions. We compared fit using AIC. 
 
