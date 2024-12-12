@@ -11,7 +11,13 @@ We estimated the survival curve parameters by digitizing the Kaplan-Meier curves
 We then exported the data into a CSV file ([KM_tierney3.csv](https://raw.githubusercontent.com/mbounthavong/CUA_Academic_detailing_and_naloxone/main/KM_tierney3.csv)). 
 
 ### Step 3: Estimate the number at risk for the Kaplan-Meier table
-We used the Excel file from Tierney and colleagues to esitmate the number at risk. I used the paper by Walley and colleagues to input into Tierney and colleagues Excel sheet to properly estimate the number at risk in the Kaplan-Meier table. 
+The digitized KM curve provided survival estimates at months 1 to 12. 
+
+```{r}
+data1 <- "https://raw.githubusercontent.com/mbounthavong/CUA_Academic_detailing_and_naloxone/main/KM_tierney3.csv"
+````
+
+We inputted these into an Excel file from Tierney and colleagues to esitmate the number at risk. I used the paper by Walley and colleagues to input into Tierney and colleagues Excel sheet to properly estimate the number at risk in the Kaplan-Meier table. 
 
 ### Step 4: Extrapolate survival to estimate the parameters for the survival functions
 Then, we used the R code by Guyot and collagues to fit into the `flexsurvreg` command to estimate the parameters for the survival function. 
