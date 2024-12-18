@@ -25,7 +25,7 @@ We inputted these into an Excel file from Tierney and colleagues to esitmate the
 <img src = 'https://github.com/mbounthavong/CUA_Academic_detailing_and_naloxone/blob/main/Figures/tierney excel.png' width = 40%>
 
 ### Step 4: Extrapolate survival to estimate the parameters for the survival functions
-Then, we used R code by Guyot and colleagues to create individual patient data (IPD). 
+Then, we used [R code by Guyot and colleagues - `Guyot_survival_fit_code.R`](https://raw.githubusercontent.com/mbounthavong/CUA_Academic_detailing_and_naloxone/refs/heads/main/R%20codes/Guyot_survival_fit_code.R) to create individual patient data (IPD). 
 
 We have to hard code this into the [R script - `Guyot_survival_fit_code.R`](https://raw.githubusercontent.com/mbounthavong/CUA_Academic_detailing_and_naloxone/refs/heads/main/R%20codes/Guyot_survival_fit_code.R):
 
@@ -36,8 +36,6 @@ n.risk<-c(9386, 9382, 9367, 9355, 9342, 9333, 9321, 9308, 9294, 9278, 9261, 9255
 ```
 
 Next, we used the IPD for survival curve fitting using the `flexsurvreg` command to estimate the parameters for the survival function. 
-
-The R code that we used is located [here](https://raw.githubusercontent.com/mbounthavong/CUA_Academic_detailing_and_naloxone/refs/heads/main/R%20codes/Guyot_survival_fit_code.R).
 
 Ultimately, we opted to use the Weibull, which had the best fit compared to the other survival functions. We compared fit using AIC. 
 
