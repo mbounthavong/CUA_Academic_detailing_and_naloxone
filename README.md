@@ -27,6 +27,14 @@ We inputted these into an Excel file from Tierney and colleagues to esitmate the
 ### Step 4: Extrapolate survival to estimate the parameters for the survival functions
 Then, we used R code by Guyot and colleagues to create individual patient data (IPD). 
 
+We have to hard code this into the [R script - `Guyot_survival_fit_code.R`](https://raw.githubusercontent.com/mbounthavong/CUA_Academic_detailing_and_naloxone/refs/heads/main/R%20codes/Guyot_survival_fit_code.R):
+
+```ruby
+### n.risk is manually inputted from Tierney's Excel calculation at timepoints:
+### 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12 months
+n.risk<-c(9386, 9382, 9367, 9355, 9342, 9333, 9321, 9308, 9294, 9278, 9261, 9255, 9250)
+```
+
 Next, we used the IPD for survival curve fitting using the `flexsurvreg` command to estimate the parameters for the survival function. 
 
 The R code that we used is located [here](https://raw.githubusercontent.com/mbounthavong/CUA_Academic_detailing_and_naloxone/refs/heads/main/R%20codes/survival_fit_tierney.R).
