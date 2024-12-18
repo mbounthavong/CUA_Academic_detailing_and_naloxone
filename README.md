@@ -37,7 +37,7 @@ n.risk<-c(9386, 9382, 9367, 9355, 9342, 9333, 9321, 9308, 9294, 9278, 9261, 9255
 
 Next, we used the IPD for survival curve fitting using the `flexsurvreg` command to estimate the parameters for the survival function. 
 
-The R code that we used is located [here](https://raw.githubusercontent.com/mbounthavong/CUA_Academic_detailing_and_naloxone/refs/heads/main/R%20codes/survival_fit_tierney.R).
+The R code that we used is located [here](https://raw.githubusercontent.com/mbounthavong/CUA_Academic_detailing_and_naloxone/refs/heads/main/R%20codes/Guyot_survival_fit_code.R).
 
 Ultimately, we opted to use the Weibull, which had the best fit compared to the other survival functions. We compared fit using AIC. 
 
