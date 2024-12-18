@@ -39,6 +39,23 @@ Next, we used the IPD for survival curve fitting using the `flexsurvreg` command
 
 Ultimately, we opted to use the Weibull, which had the best fit compared to the other survival functions. We compared fit using AIC. 
 
+```ruby
+### Weibull curve fit
+## https://stats.stackexchange.com/questions/259625/meaning-of-weibull-scale-and-shape-from-flexsurvreg
+we <- flexsurvreg(Surv(IPD[,1], IPD[,2])~1, dist="weibull")
+we$coefficients   ### Use the negative "shape" (it is presented as a (+), but use the (-) value
+exp(we$coefficients)
+lambda <- we$res[2]
+gamma <- we$res[1]
+lambda
+gamma
+we
+
+
+### Plot KM curve and the other survival fits
+plot(survfit(Surv(IPD[,1], IPD[,2])~1), ylim = c(0.97, 1))
+plot(we, ylim = c(0.97, 1))           ### Weibull
+```
 <img src = 'https://github.com/mbounthavong/CUA_Academic_detailing_and_naloxone/blob/main/Figures/weibull.png' width = 50%>
 
 Here is a comparison of survival curve extrapolations for the various curve fitting models. 
