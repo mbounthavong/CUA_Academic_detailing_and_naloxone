@@ -8,7 +8,7 @@ This respository contains data files for the CUA study on academic detailing's i
 We estimated the survival curve parameters by digitizing the Kaplan-Meier curves from a previous publication.
 
 ### Step 2: Saved data as CSV file
-We then exported the data into a CSV file ([KM_tierney3.csv](https://raw.githubusercontent.com/mbounthavong/CUA_Academic_detailing_and_naloxone/main/KM_tierney3.csv)). 
+We then exported the data into a CSV file ([`KM_tierney3.csv`](https://raw.githubusercontent.com/mbounthavong/CUA_Academic_detailing_and_naloxone/main/KM_tierney3.csv)). 
 
 ### Step 3: Estimate the number at risk for the Kaplan-Meier table
 The digitized KM curve provided survival estimates at months 1 to 12. 
